@@ -8,8 +8,4 @@ services:
             - "9991:6379"
         volumes:
             - ./redis:/usr/local/etc/redis
-        networks:
-            - padrão
-    networks:
-        padrão:
-            driver: bridge
+    
